@@ -3,17 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style.css">
     <title>Portfólio</title>
 </head>
 <body> 
 
-
-
     <div class="gradientColor">
 
     <header>
-
         <nav class="lw">    
             <a href="">Portfolio.</a>
             <div class="itemNav lw">
@@ -28,8 +27,7 @@
 
     <main>
         <section class="homeContent">
-            <img src="./assets/test 3.png" alt="Me">
-
+            <span class="me"></span>
             <div class="contentText">
                 <p class="hello" id="greetings">_Hello...</p>
                 <p class="Im" id="Im">I'm <strong>Leonardo</strong> Andrade</p>
@@ -37,22 +35,154 @@
 
                 <a href="">Know more</a>
                 
-
             </div>
-            <div class="social">
-                <a href="">
-                    <img src="../partindoDoZero/assets/Github.png" alt="">
-                </a>
-                <a href="">
-                    <img src="../partindoDoZero/assets/linkedin.png" alt="">
-                </a>
-            </div>
+            <ul class="social">
+                <li>
+                    <a href="">
+                        <img src="../partindoDoZero/assets/Github.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="../partindoDoZero/assets/linkedin.png" alt="">
+                    </a>
+                </li>
+            </ul>
         </section>
-        
 
         </div>
+
+        <section class="projects">
+            <div class="projects__background"></div>
+
+            <div class="projects__describe">
+                <h2 class="projects__title"> Floreth </h2>
+                <p class="projects__text">Web site desenvolvido para turistas e entusiastas em natureza. Mostra lugares perto de sua região para relizar uma expedição incrível.</p>
+
+                
+                <ul class="projects__list-tec">
+                    <li class="list-tec__item">
+                        <img src="assets/img/iconTec/js.svg" alt="">
+                    </li>
+                    <li class="list-tec__item">
+                        <img src="assets/img/iconTec/html.svg" alt="">
+                    </li>
+                </ul>
+
+                <a class="projects__bt--more" href="#">
+                    Saiba mais
+                </a>
+            </div>
+
+
+
+            <!-- Slider main container -->
+            <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="project__content">
+                    </div>
+                </div>
+                <div class="swiper-slide">      
+                    <div class="content_second project__content ">
+                    </div>
+                </div>
+                <div class="swiper-slide">      
+                    <div class="project__content content_thee">
+                    </div>
+                </div>
+                <div class="swiper-slide">      
+                    <div class="project__content content_four">
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </section>
+
+        <section class="about">
+            <span class="about__img"></span>
+            <div class="about__describe">
+                <h2 class="about__title"> 
+                    About me
+                </h2>
+                <p class="about__text">
+                    Minha formação deu início com técnico em Desenvolvimento de Sistemas, na instituição Etec, onde inflamou uma grande paixão e confirmou meu gosto por tecnologia. Hoje, me encontro com certificado az-900 e estou cursando Ciência da Computação na Cruzeiro do sul, atualmente busco oportunidades para desenvolver minhas competências e poder fazer diferença no âmbito que desejo atuar. Estudante de Java, Spring boot e React.
+                </p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="skills__content">
+                <h2 class="skills__title">Skills</h2>
+                <ul class="skills__list-skills">
+                    <li class="list-skills__item">
+                        <img src="assets/img/iconSkills/microsoft.svg" alt="">
+                        <p class="list-skills__text">
+                            Microsoft Certified Azure Fundamentals (Az-900)
+                        </p>
+                        <button class="list-skills__more" id="bt_more">+</button>
+                    </li>
+                    <li class="list-skills__item">
+                        <img src="assets/img/iconSkills/informatica.svg" alt="">
+                        <p class="list-skills__text">
+                            Informática
+                        </p>
+                        <button class="list-skills__more" id="bt_more">+</button>
+                    </li>
+                    <li class="list-skills__item">
+                        <img src="assets/img/iconSkills/logic.svg" alt="">
+                        <p class="list-skills__text">
+                            Fundamento de lógica de programação
+                        </p>
+                        <button class="list-skills__more" id="bt_more">+</button>
+                    </li>
+                    <li class="list-skills__item">
+                        <img src="assets/img/iconSkills/personalDevelopment.svg" alt="">
+                        <p class="list-skills__text">
+                            Programa de Desenvolvimento Profissional
+                        </p>
+                        <button class="list-skills__more" id="bt_more">+</button>
+                    </li>
+                    <li class="list-skills__item">
+                        <img src="assets/img/iconSkills/english.svg" alt="">
+                        <p class="list-skills__text">
+                            Inglês técnico
+                        </p>
+                        <button class="list-skills__more" id="bt_more">+</button>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="skills__describe" id="content_skills_more">
+
+            </div>
+
+        </section>
+
     </main>
 
     <script src="index.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 100,
+            slidesPerView: 2,
+            pagination: {
+                el: '.swiper-pagination',
+                type: "bullets"
+            },
+        });
+    </script>
 </body>
 </html>

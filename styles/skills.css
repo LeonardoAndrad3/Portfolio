@@ -1,0 +1,33 @@
+.skills{
+    background: var(--color-background);
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills__list-skills{
+    list-style-type: none;
+}
+
+.list-skills__item{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    align-items: center;
+    padding: 1.5em 0;
+}
+
+.skills__describe{
+    visibility: hidden;
+    background: var(--color-content-primary);
+    height: auto;
+    width: auto;
+    max-height: 400px;
+}
+
+#bt_more{
+    background: transparent;
+    color: var(--color-text-white);
+    border: none;
+    font-size: 26px;
+}

@@ -18,10 +18,8 @@ function write(element,i){
             });
         }, 1500)
 
-    }, 3000*i)       
-  
+    }, 3000*i)
 }
-
 
 const greetings = document.getElementById("greetings");
 const im =  document.getElementById("Im");

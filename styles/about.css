@@ -1,0 +1,33 @@
+.about{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: justify;
+    align-items: center;
+    padding: 5em 10em;
+    background: var(--color-background);
+}
+
+.about__describe{
+    position: relative;
+}
+
+.about__title{
+    position: absolute;
+    display: inline-block;
+    font-size: 20px;
+    background-color: transparent;
+    border: solid 1px var(--color-p1);
+    padding: .5em 3em;
+    right: 0;
+    top: -100%;
+    border-radius: 10px;
+}
+
+.about__img{
+    width: 80%;
+    height: 80%;
+    background: url("../assets/img/test.svg") no-repeat;
+    background-size: contain;
+    max-height: 550px;
+}
