@@ -1,0 +1,94 @@
+
+.footer{
+    border-top: solid 2px var(--color-content-primary);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.footer__contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    text-decoration: none;
+    color: var(--color-text-white)
+}
+
+.footer__list-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 1em;
+}
+
+.list-contact__item{
+    width: auto;
+}
+
+.list-contact__item img{
+    width: 100%;
+    height: auto;
+}
+
+.footer__title-contact{
+    font-size: 20px;
+    padding: 1em;
+}
+
+.footer__icon{
+    width: 30px;
+    height: 30px;
+}
+
+.tel, .email, .linkedin, .git{
+    padding: .5em;
+    border-radius: 5px;
+}
+
+
+.tel > span{
+    background: url("../assets/img/iconFooter/phone.png") no-repeat;
+    background-size: contain;
+}
+
+.tel{
+    background: var(--color-tel);
+}
+
+.email > span{
+    background: url("../assets/img/iconFooter/gmail.png")no-repeat;
+    background-size: contain;
+}
+
+.email{
+    background: var(--color-email);
+}
+
+.linkedin > span{
+    background: url("../assets/img/iconFooter/linkedin.png")no-repeat;
+    background-size: contain;
+} 
+
+.linkedin{
+    background: var(--color-linkedin);
+}
+
+.git > span{
+    background: url("../assets/img/iconFooter/github.png")no-repeat;
+    background-size: contain;
+} 
+
+.git{
+    background: var(--color-git);
+}
+
+
+
+.footer__developer{
+    margin: 1em 0;
+}

@@ -5,7 +5,6 @@
     text-align: justify;
     align-items: center;
     padding: 5em 10em;
-    background: var(--color-background);
 }
 
 .about__describe{
@@ -27,7 +26,7 @@
 .about__img{
     width: 80%;
     height: 80%;
-    background: url("../assets/img/test.svg") no-repeat;
+    background: url("../assets/img/perfil.svg") no-repeat;
     background-size: contain;
     max-height: 550px;
 }
