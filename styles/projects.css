@@ -58,8 +58,8 @@
 }
 
 .project__content{
-    width: auto;
-    height: 20rem;
+    width: 20vw;
+    height: 60vh;
     border-radius: 10px;
     background: url("../assets/img/floreth.png") no-repeat;
     background-size: cover;
@@ -106,7 +106,6 @@
         display: flex;
         justify-content: center;
         width: 30px;
-        display: flex;
     }
 
     .swiper-button-prev{
