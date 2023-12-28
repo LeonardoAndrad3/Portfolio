@@ -1,5 +1,6 @@
 .about{
-    height: 100vh;
+    position: relative;
+    height: 80vh;
     display: grid;
     grid-template-columns: 50% 50%;
     text-align: justify;
@@ -8,25 +9,57 @@
 }
 
 .about__describe{
-    position: relative;
+    height: auto;
+    width: 80%;
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 2em;
 }
 
 .about__title{
     position: absolute;
-    display: inline-block;
     font-size: 20px;
     background-color: transparent;
     border: solid 1px var(--color-p1);
     padding: .5em 3em;
-    right: 0;
-    top: -100%;
+    top: 3rem;
+    right: 10rem;
     border-radius: 10px;
 }
 
 .about__img{
-    width: 80%;
-    height: 80%;
-    background: url("../assets/img/perfil.svg") no-repeat;
+    width: 90%;
+    height: 100%;
+    background: url("../assets/img/perfilAbout.svg") no-repeat;
     background-size: contain;
-    max-height: 550px;
+    background-position: center;
+
+}
+
+@media (max-width: 900px){
+    
+    .about__img{
+        height: 20rem;
+    }
+
+    .about__title{
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        padding: 5rem 0;
+        height: auto;
+    }
+
+    .about__describe{
+        padding: 0 5rem;
+        width: auto;
+    }
+
 }

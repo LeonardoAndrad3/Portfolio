@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 3%;
+    align-items: center;
+}
+
+.list-nav{
+    margin: auto 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.lw > a{
+    font-size: 18px;
+    color: white;
+    font-family: 'Castoro Titling', serif;
+}
+
+.lw{
+    display: flex;
+    gap: 30px;
+}
+
+@media (max-width: 900px) {
+
+    .navbar {
+        padding: 4% 6%;
+    }
+
+    .navbar > ul {
+        display: none;
+    }
+}

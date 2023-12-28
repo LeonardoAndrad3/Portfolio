@@ -1,7 +1,8 @@
 .skills{
-    height: 70vh;
+    height: auto;
     display: flex;
     justify-content: space-around;
+    padding: 5em 10em;
 }
 
 .skills__list-skills{

@@ -50,28 +50,74 @@
     width: 50%;
     display: flex;
     flex-direction: column;
+    word-spacing: 2px;
+    font-size: 18px;
+    line-height: 1.5em;
     gap: 2em;
+    text-align: justify;
 }
 
 .project__content{
-    width: 300px;
-    height: 400px;
+    width: auto;
+    height: 20rem;
     border-radius: 10px;
     background: url("../assets/img/floreth.png") no-repeat;
     background-size: cover;
-    border: solid 1px rgba(132, 132, 132, 0.152);
-    box-shadow: 0px 4px 10px -5px rgba(168, 168, 168, 0.396);
+    box-shadow: inset rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, inset rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,inset rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.swiper-pagination{
+    position: absolute;
+    bottom: 10rem;
 }
 
 .swiper{
     width: 100%;
 }
 
-.swiper-wrapper{
-    padding: 1em 1em;
-}
-
 .swiper-button-prev{
     display: none;
 }
 
+@media (max-width: 900px) {
+
+    .projects{
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+        padding: 0;
+    }
+
+    .projects__describe{
+        padding: 6rem 3em 5rem 3em;
+        width: 100%;
+        align-items: center;
+    }
+
+    .swiper{
+        height: 100%;
+    }
+
+    .project__content{
+        width: 43%;
+        height: 61%;
+    }
+
+    .swiper-slide{
+        display: flex;
+        justify-content: center;
+        width: 30px;
+        display: flex;
+    }
+
+    .swiper-button-prev{
+        display: block;
+    }
+
+    .bt{
+        position: absolute;
+        top: 35%;
+
+    }
+
+    
+}
