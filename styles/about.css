@@ -18,13 +18,9 @@
 
 .about__title{
     position: absolute;
-    font-size: 20px;
-    background-color: transparent;
-    border: solid 1px var(--color-p1);
-    padding: .5em 3em;
+    border: solid 1px var(--color-p1);    
     top: 3rem;
     right: 10rem;
-    border-radius: 10px;
 }
 
 .about__img{
@@ -33,7 +29,7 @@
     background: url("../assets/img/perfilAbout.svg") no-repeat;
     background-size: contain;
     background-position: center;
-
+    max-width: 500px;
 }
 
 @media (max-width: 900px){

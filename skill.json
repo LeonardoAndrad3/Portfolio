@@ -1,0 +1,27 @@
+[
+    {
+        "title":"Microsoft Certified Azure Fundamentals (Az-900)",
+        "icon": "assets/img/iconSkills/microsoft.svg",
+        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum dolor lacus, volutpat vulputate lorem elementum eget. Cras urna purus, vehicula at imperdiet sed, lacinia id nibh. "
+    },
+    {
+        "title":"Informática",
+        "icon": "assets/img/iconSkills/informatica.svg",
+        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum dolor lacus, volutpat vulputate lorem elementum eget. Cras urna purus, vehicula at imperdiet sed, lacinia id nibh. "
+    },
+    {
+        "title":"Fundamento de lógica de programação",
+        "icon": "assets/img/iconSkills/logic.svg",
+        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum dolor lacus, volutpat vulputate lorem elementum eget. Cras urna purus, vehicula at imperdiet sed, lacinia id nibh. "
+    },
+    {
+        "title":"Programa de Desenvolvimento Profissional",
+        "icon": "assets/img/iconSkills/personalDevelopment.svg",
+        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum dolor lacus, volutpat vulputate lorem elementum eget. Cras urna purus, vehicula at imperdiet sed, lacinia id nibh. "
+    },
+    {
+        "title":"Inglês técnico",
+        "icon": "assets/img/iconSkills/english.svg",
+        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum dolor lacus, volutpat vulputate lorem elementum eget. Cras urna purus, vehicula at imperdiet sed, lacinia id nibh. "
+    }
+]

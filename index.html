@@ -116,7 +116,7 @@
         </section>
 
         <section class="about">
-            <h2 class="about__title"> 
+            <h2 class="about__title title-pag"> 
                 About me
             </h2>
             <span class="about__img"></span>
@@ -130,58 +130,21 @@
 
         <section class="skills">
             <div class="skills__content">
-                <h2 class="skills__title">Skills</h2>
-                <ul class="skills__list-skills">
-                    <li class="list-skills__item">
-                        <img src="assets/img/iconSkills/microsoft.svg" alt="">
-                        <p class="list-skills__text">
-                            Microsoft Certified Azure Fundamentals (Az-900)
-                        </p>
-                        <button class="list-skills__more" id="bt_more">+</button>
-                    </li>
-                    <li class="list-skills__item">
-                        <img src="assets/img/iconSkills/informatica.svg" alt="">
-                        <p class="list-skills__text">
-                            Informática
-                        </p>
-                        <button class="list-skills__more" id="bt_more">+</button>
-                    </li>
-                    <li class="list-skills__item">
-                        <img src="assets/img/iconSkills/logic.svg" alt="">
-                        <p class="list-skills__text">
-                            Fundamento de lógica de programação
-                        </p>
-                        <button class="list-skills__more" id="bt_more">+</button>
-                    </li>
-                    <li class="list-skills__item">
-                        <img src="assets/img/iconSkills/personalDevelopment.svg" alt="">
-                        <p class="list-skills__text">
-                            Programa de Desenvolvimento Profissional
-                        </p>
-                        <button class="list-skills__more" id="bt_more">+</button>
-                    </li>
-                    <li class="list-skills__item">
-                        <img src="assets/img/iconSkills/english.svg" alt="">
-                        <p class="list-skills__text">
-                            Inglês técnico
-                        </p>
-                        <button class="list-skills__more" id="bt_more">+</button>
-                    </li>
+                <h2 class="skills__title title-pag">Skills</h2>
+                <ul class="skills__list-skills" id="list-skills">
                 </ul>
-
             </div>
             <div class="skills__describe" id="content_skills_more">
-
+                <img class="describe__icon" src="assets/img/iconSkills/microsoft.svg" alt="">
+                <h2 class="describe__title">Certificado oficial Microsoft Certified Azure Fundamentals (Az-900)</h2>
+                <h3 class="describe__sub-title">Experiência</h3>
+                <p class="describe__text">Após participar de um exame de aptidão, os participantes que obtiveram a nota passaram para um intensivo de estudos pela fundação FAT, o mesmo tendo exames para quem receberia o voucher. Assim, fui contemplado a realizar o exame e obtive êxito no mesmo.</p>
             </div>
-
         </section>
 
         <footer class="footer">
             <h2 class="footer__title-contact">Contact</h2>
-
             <ul class="footer__list-contact">
-             
-           
                 <li class="list-contact__item">
                     <p class="footer__contact tel">
                         <span class="footer__contact footer__icon"></span>  
@@ -240,5 +203,6 @@
         });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="utils/skillBtn.js" ></script>
 </body>
 </html>

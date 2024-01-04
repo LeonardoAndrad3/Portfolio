@@ -29,3 +29,4 @@ for(let i = 0; i < 3; i++){
         write(greetings,i);
     }, 3000*i)
 }
+
