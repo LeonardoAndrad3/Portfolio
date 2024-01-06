@@ -1,23 +1,24 @@
 .about{
     position: relative;
-    height: 80vh;
+    height: auto;
     display: grid;
-    grid-template-columns: 50% 50%;
-    text-align: justify;
-    align-items: center;
-    padding: 5em 10em;
+    grid-template-columns: 50% auto;
+    grid-template-rows: auto;
+    padding: 10rem 5% 0 5%;
+    transition: all .3s;
 }
 
 .about__describe{
-    height: auto;
-    width: 80%;
+    height: 100%;
+    width: 100%;
     word-spacing: 2px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 2em;
 }
 
 .about__title{
     position: absolute;
+    width: fit-content;
     border: solid 1px var(--color-p1);    
     top: 3rem;
     right: 10rem;
@@ -29,7 +30,8 @@
     background: url("../assets/img/perfilAbout.svg") no-repeat;
     background-size: contain;
     background-position: center;
-    max-width: 500px;
+    align-self: center;
+    min-height: 50vh;
 }
 
 @media (max-width: 900px){
@@ -42,6 +44,7 @@
         position: relative;
         top: 0;
         right: 0;
+        margin: auto;
     }
 
     .about{
@@ -54,7 +57,7 @@
     }
 
     .about__describe{
-        padding: 0 5rem;
+        padding: 0 2rem;
         width: auto;
     }
 

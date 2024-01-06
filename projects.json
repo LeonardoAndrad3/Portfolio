@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Floreth",
+        "image": "assets/img/floreth.png",
+        "describe": "Web site desenvolvido para turistas e entusiastas em natureza. Mostra lugares perto de sua região para relizar uma expedição incrível.",
+        "iconTecs":{
+            "html": "assets/img/iconTec/html.svg",
+            "css": "",
+            "javascript": "assets/img/iconTec/js.svg"
+        }
+    }
+]
